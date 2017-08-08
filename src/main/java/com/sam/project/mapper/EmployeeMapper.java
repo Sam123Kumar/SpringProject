@@ -4,9 +4,7 @@ import com.sam.project.pojo.EmployeePojo;
 import com.sam.project.Entity.Employee;
 import com.sam.project.pojo.EmployeeResponsePojo;
 
-/**
- * Created by sameer on 19/12/16.
- */
+
 public final class EmployeeMapper {
     public static Employee mapUserRegisterPojoIntoEntity(EmployeePojo data) {
         Employee ue = new Employee();
